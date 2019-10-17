@@ -1,0 +1,10 @@
+Run this in google cloud sdk shell
+git init
+gcloud init && git config --global credential.https://source.developers.google.com.helper gcloud.cmd
+git remote add google https://source.developers.google.com/p/certiphication/r/DataflowToBigquery
+git add .
+git commit -m "xyz"
+if error then follow the error-statement
+if asked for credentials enter gmail and password of the linked account of gcp
+and two commands asked in error link
+git push --all google
